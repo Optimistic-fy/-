@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<view id='container'>
+  <view class='top'>
+    <image src='../images/main/top_bg.png'></image>
+    <view class='head'>
+      <image src='../images/main/main_11.png'></image>
+      <view class='name'>橘子红了没人吃</view>
+      <view class='other'>
+        <text>Level:9</text>
+        <text>王者币：380</text>
+      </view>
+    </view>
+  </view>
+  <view class='buttom'>
+    <view class='left'>
+      <image bindtap='rangPai' class='paiwei' src='../images/main/main_01.png'></image>
+      <image class='shop' src='../images/main/main_06.png'></image>
+      <image class='bank' src='../images/main/main_03.png'></image>
+      <image class='update' src='../images/main/main_11.png'></image>
+      <image class='goods' src='../images/main/main_02.png'></image>
+    </view>
+    <view class='right'>
+      <image class='range' src='../images/main/main_07.png'></image>
+      <image bindtap='Bittle' class='bit' src='../images/main/main_10.png'></image>
+      <image class='them' src='../images/main/main_09.png'></image>
+      <image class='range' src='../images/main/main_12.png'></image>
+    </view>
+  </view>
+</view>
+<!-- <navigator open-type='navigateTo' url='../ligin/ligin'>跳转</navigator> -->

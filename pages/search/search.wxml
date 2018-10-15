@@ -1,0 +1,8 @@
+<!--pages/search/search.wxml-->
+<image class='back' src='../images/fight/loading.png'></image>
+<view class='brain'>
+  <image src='../images/levelup/levelup_02.png'></image>
+</view>
+<view class='load'>
+  <text>寻找对战中>>></text>
+</view>

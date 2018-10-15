@@ -1,0 +1,23 @@
+/* pages/search/search.wxss */
+.back{
+  height: 100vh;
+}
+.brain image{
+  position: absolute;
+  top: 460rpx;
+  left: calc(50% - 70rpx);
+  width: 140rpx;
+  height: 140rpx;
+}
+.load{
+  position: absolute;
+  bottom: 200rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.load text{
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: bold;
+}

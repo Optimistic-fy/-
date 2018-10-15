@@ -1,0 +1,155 @@
+/* pages/problem/problem.wxss */
+text{
+  color: #fff;
+}
+.fight-back{
+  height: 100vh;
+}
+.content{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.left,
+.right{
+  width: 150rpx;
+  height: 100%;
+  /* border: 1px solid #000; */
+  float: left;
+}
+.middle{
+  width: calc(100% - 320rpx);
+  height: 100%;
+  /* border: 1px solid #f00; */
+  float: left;
+  display: flex;
+  justify-content:center; 
+}
+.middle-top{
+  position: absolute;
+  top: 40rpx;
+  width: 180rpx;
+  height: 180rpx;
+  border: 35rpx solid #f00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-top text{
+  font-size: 60rpx;
+  font-weight: bolder;
+}
+.num-line{
+  position: relative;
+  top: 140rpx;
+  height: 200rpx;
+  width: 150rpx;
+  margin-top: 50rpx;
+  /* border: 1px solid #fff; */
+}
+.number,
+.line{
+  position: absolute;
+  left: 30rpx;
+  font-size: 40rxp;
+  font-weight: bold;
+}
+.line{
+  left: 24rpx;
+}
+.brain-line{
+  position: absolute;
+  top: 250rpx;
+  width: 150rpx;
+  height: 140rpx;
+  background: rgba(255, 255, 255, .3);
+}
+.brain{
+  position: absolute;
+  top: 250rpx;
+  left: 100rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.title-name,
+.title-problems{
+  position: absolute;
+  top: 320rpx;
+  left: 160rpx;
+  width:  calc(100% - 320rpx);
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+}
+.title-name text{
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+.title-problems{
+  top: 450rpx;
+}
+.title-problems text{
+  font-size: 38rpx;
+}
+.athor-name{
+  position: absolute;
+  top: 520rpx;
+  left: 160rpx;
+  /* height: 400rpx; */
+  width: calc(100% - 320rpx);
+  /* border: 1px solid #000; */
+}
+.named{
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40rpx;
+}
+.named text{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #333399;
+}
+.other{
+  position: absolute;
+  bottom: 35rpx;
+  width: 150rpx;
+  height: 200rpx;
+  /* background: rgba(255, 255, 255, .3); */
+  /* border: 1px solid #000; */
+}
+.right-brain-line{
+  position: absolute;
+  bottom: 35rpx;
+  right: 0;
+  width: 150rpx;
+  height: 140rpx;
+  background: rgba(255, 255, 255, .3);
+}
+.right-brain{
+  position: absolute;
+  bottom: 35rpx;
+  right: 100rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.right-number,
+.right-line{
+  position: absolute;
+  bottom: 150rpx;
+  right: 110rpx;
+  font-size: 40rxp;
+  font-weight: bold;
+}
+.right-line{
+  right: 104rpx;
+}

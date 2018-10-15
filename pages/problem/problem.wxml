@@ -1,0 +1,51 @@
+<!--pages/problem/problem.wxml-->
+<image class='fight-back' src='../images/fight/fighting.png'></image>
+<view class='content'>
+  <view class='left'>
+    <view class='num-line'>
+      <text class='number'>0</text>
+      <text class='line'>__</text>
+      </view>
+        <view class='brain-line'></view>  
+        <image class='brain' src='../images/book/book_02.png'></image>
+      <view>
+    </view>
+  </view>
+  <view class='middle'>
+    <view class='middle-top'>
+      <text bindtap='startInterval'>{{tempText}}</text>
+    </view>
+    <view class='title' wx:for='{{info}}'>
+      <view class='title-name'>
+        <text>第{{item.n}}题</text>
+      </view>
+      <view class='title-problems'>
+        <text>"{{item.title}}"的作者是</text>
+      </view>
+      <view class='athor-name'>
+        <view class='named'>
+          <text>{{item.name1}}</text>
+        </view>
+        <view class='named'>
+          <text>{{item.name2}}</text>
+        </view>
+        <view class='named'>
+          <text>{{item.name3}}</text>
+        </view>
+        <view class='named'>
+          <text>{{item.name4}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='right'>
+     <view class='other'>
+      <text class='right-number'>0</text>
+      <text class='right-line'>__</text>
+      </view>
+        <view class='right-brain-line'></view>  
+        <image class='right-brain' src='../images/book/book_02.png'></image>
+      <view>
+    </view>
+  </view>
+</view>

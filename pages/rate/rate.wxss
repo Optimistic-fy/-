@@ -1,0 +1,73 @@
+/* pages/rate/rate.wxss */
+page{
+  background:#c5e4ff;
+}
+.all{
+  margin: 0 40rpx;
+}
+.top{
+  height: 300rpx;
+  width: 100%;
+  margin-bottom: 5rpx;
+  box-shadow: 0 2px 2px #000; 
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.date-all,
+.coin{
+  display: flex;
+  justify-content: center;
+}
+.date,
+.coin text{
+  position: absolute;
+  top: 150rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.coin text{
+  top: 240rpx;
+}
+.list{
+  /* height: 800rpx; */
+  width: calc(100% - 20rpx);
+  margin: 0 10rpx;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list .pice{
+  height: 200rpx;
+  margin-bottom: 5rpx;
+  width: 100%;
+  /* border: 1px solid #000; */
+  border-radius: 10rpx;
+  background: #4b4bfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pice image{
+  float: left;
+  width: 110rpx;
+  height: 110rpx;
+  margin-right: 30rpx;
+}
+.content{
+  float: left;
+  height: 80%;
+  width: 250rpx;
+  /* border: 1px solid #000; */
+}
+.pice text{
+  color: #fff;
+}
+.one{
+  font-size: 40rpx;
+}
+.other{
+  font-size: 30rpx;
+}

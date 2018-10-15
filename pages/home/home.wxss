@@ -1,0 +1,73 @@
+/* pages/home/home.wxss */
+page{
+  background:#c5e4ff;
+}
+#container{
+  margin: 0 40rpx;
+}
+.top{
+  height: 300rpx;
+  width: 100%;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.head{
+  position: absolute;
+  top: 20rpx;
+  text-align: center;
+  width: calc(100% - 80rpx);
+}
+.head image{
+  height: 110rpx;
+  width: 110rpx;
+  border-radius: 50%;
+}
+.name{
+  margin-top: 10rpx;
+  color: #fff;
+}
+.other{
+  color: #fff;
+  margin: 30rpx 0 0 0;
+}
+.other text{
+  margin: 0 90rpx 0 90rpx;
+}
+
+.buttom{
+  margin-top: 30rpx;
+}
+.left,
+.right{
+  width: 48%;
+  float:left;
+  border: 1px solid #c5e4ff;
+}
+.left image,
+.right image{
+  margin: 0 0 20rpx 0;
+}
+.paiwei{
+  height: 350rpx;
+}
+.shop,
+.bank,
+.goods{
+  height: 200rpx;
+}
+.update{
+  height: 300rpx;
+}
+.right{
+  height: 500rpx;
+  float: right;
+}
+.range,
+.bit{
+  height: 300rpx;
+}
+.them{
+  height: 380rpx;
+}

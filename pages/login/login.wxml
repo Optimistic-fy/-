@@ -1,0 +1,40 @@
+<!--pages/login/login.wxml-->
+<view class='all'>
+  <!-- <image class='fight' src='../images/fight/fighting.png'></image> -->
+  <view class='content'>
+    <image src='../images/sign/sign_bg.png'></image>
+    <view class='content-pic'>
+      <view wx:for='{{prize}}'>
+        <view class='pice' style='opacity:{{item.opacity}}'>
+          <view class='clear'>
+            <text class='title'>{{item.name}}</text>
+          </view>
+          <view class='middle'>
+            <image src='{{item.picsrc}}'></image>
+          </view>
+          <view class='pice-bottom'>
+            <text>{{item.time}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='bottom'>
+    <button class='btn' bindtap='show'>领取</button>
+  </view>
+  <view class='logined' style='transform:scale({{scale}},{{scale}})'>
+    <image class='login-in' src='../images/sign/suc_title.png'></image>
+    <view class='login-back'>
+      <view class='login-title one'>
+        <text>您获得了</text>
+      </view>
+      <view class='login-content'>
+        <text class='login-big'>大宝箱</text>
+        <image class='login-pic' src='../images/sign/sign_02.png'></image>
+      </view>
+      <view class='login-bottom'>
+        <text class='login-title one'>已经帮您添加到个人物品</text>
+      </view>
+    </view>
+  </view>
+</view>

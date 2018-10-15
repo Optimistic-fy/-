@@ -1,0 +1,84 @@
+<!--pages/rate/rate.wxml-->
+<view class='all'>
+  <view class='top'>
+    <image src='../images/session/session_02.png'></image>
+    <view class='date-all'>
+      <text class='date'>2017年12月26日——2018年1月31日</text>
+    </view>
+    <view class='coin'>
+      <text>王者币：195</text>
+    </view>
+  </view>
+  <view class='list'>
+    <view class='pice'>
+      <image src='../images/session/session_03.png'></image>
+      <view class='content'>
+        <view>
+          <text class='one'>入门新手</text>
+        </view>
+        <view>
+          <text class='other'>奖金：35王者币</text>
+        </view>
+        <view>
+          <text class='other'>消耗：20王者币</text>
+        </view>
+      </view>
+    </view>
+    <view class='pice'>
+      <image src='../images/session/session_06.png'></image>
+      <view class='content'>
+        <view>
+          <text class='one'>起步熟手</text>
+        </view>
+        <view>
+          <text class='other'>奖金：80王者币</text>
+        </view>
+        <view>
+          <text class='other'>消耗：50王者币</text>
+        </view>
+      </view>
+    </view>
+    <view class='pice'>
+      <image src='../images/session/session_01.png'></image>
+      <view class='content'>
+        <view>
+          <text class='one'>坚韧黑铁</text>
+        </view>
+        <view>
+          <text class='other'>奖金：145王者币</text>
+        </view>
+        <view>
+          <text class='other'>消耗：90王者币</text>
+        </view>
+      </view>
+    </view>
+    <view class='pice'>
+      <image src='../images/session/session_04.png'></image>
+      <view class='content'>
+        <view>
+          <text class='one'>顽强青铜</text>
+        </view>
+        <view>
+          <text class='other'>奖金：220王者币</text>
+        </view>
+        <view>
+          <text class='other'>消耗：140王者币</text>
+        </view>
+      </view>
+    </view>
+    <view class='pice'>
+      <image src='../images/session/session_05.png'></image>
+      <view class='content'>
+        <view>
+          <text class='one'>最强王者</text>
+        </view>
+        <view>
+          <text class='other'>奖金：500王者币</text>
+        </view>
+        <view>
+          <text class='other'>消耗：200王者币</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<!--pages/fight/fight.wxml-->
+<image class='fight-back' src='../images/fight/fighting.png'></image>
+<view class='content'>
+  <view class='left'>
+    <view>
+      <text animation="{{hasInfoData}}" class='number'>0</text>
+      <text animation="{{hasInfoData}}" class='line'>__</text>
+    </view>
+    <view class='num-line' animation="{{scaleDataleft}}">
+      <view class='brain-line'>
+        <text animation="{{noneData}}">橘子红了没人吃</text>
+      </view>  
+      <image class='brain' src='../images/book/book_02.png'></image>
+    </view>
+  </view>
+  <view class='middle'>
+    <view class='middle-top' style='top:{{top}}' animation='{{moveData}}'>
+      <text animation="{{noneData}}">VS</text>
+      <text class='hastime' animation="{{hasData}}">{{tempText}}</text>
+    </view>
+    <view class='title' animation="{{hasInfoData}}">
+      <view class='title-name' wx:if='{{change}}'>
+        <text>第{{(num+1)}}题</text>
+      </view>
+      <view class='pos-project'>
+        <text class='project'>{{info[num].project}}</text>
+      </view>
+      <view class='title-problems'>
+        <text>"{{info[num].title}}"的作者是</text>
+      </view>
+      <view class='athor-name'>
+        <view class='named'  wx:for='{{info[num].name}}' data-bg='{{item.bg}}'>
+          <text>{{item.named_N}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='right'>
+  <view>
+    <text animation="{{hasInfoData}}" class='right-number'>0</text>
+    <text animation="{{hasInfoData}}" class='right-line'>__</text>
+  </view>
+     <view class='other' animation="{{scaleDataright}}" >
+      <view class='right-brain-line'>
+        <text animation="{{noneData}}">机器人</text>
+      </view>  
+      <image class='right-brain' src='../images/book/book_02.png'></image>
+    </view>
+  </view>
+</view>
